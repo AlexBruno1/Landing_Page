@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top-header, footer{
+
+    background-color: #1f2937;
+    padding: 16px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    justify-content: center;
+}
+
+.logo,
+.footer {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.first {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left-first-section,
+.right-first-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left-first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    gap: 8px;
+    
+}
+
+.right-first-section {
+    display: flex;
+    padding-right: 50px;
+}
+
+.first-section-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.first-section-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-section-button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 0px;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+ 
+
+}
+
+.first-img {
+    height: 250px;
+    width: auto;
+}
+
+.second {
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.second-section-header {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    flex: 1;
+}
+
+.info {
+    flex: 1 1 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.second-section-element {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-section-images{
+    float: left;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.second-section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    max-width: 200px;
+    height: 50px;
+}
+
+.third {
+
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote, .author {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author{
+    text-align: right;
+}
+
+
+
+
+
+
+
